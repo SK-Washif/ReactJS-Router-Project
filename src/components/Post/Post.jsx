@@ -9,7 +9,7 @@ const Post = ({post}) => {
       <h5>ID:</h5>
       <h5>{title}+</h5>
       <Link to={`/post/${id}`}>Show Detail</Link>
-      <button>Show post details</button>
+      <Link to={`/post/${id}`}><button>Show post details</button></Link>
     </div>
   );
 };
